@@ -43,8 +43,8 @@ public class ApplicationTest {
 
     @Test
     public void testAddAccount() {
-        expenseManager.addAccount("1456", "Sampath", "Happy", 1000.0);
+        expenseManager.addAccount("666", "Sampath", "Happy", 1000.0);
         List<String> accNumbers = expenseManager.getAccountNumbersList();
-        assertTrue(accNumbers.contains("123456")) ;
+        assertTrue(accNumbers.contains("666")) ;
     }
 }
